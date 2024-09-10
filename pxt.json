@@ -1,0 +1,27 @@
+{
+    "name": "BallonSondeV2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "pxt-calliope-sparkfunqwiicopenlog": "github:CalliTGS3/pxt-calliope-sparkfunQwiicOpenLog#a5ac795c4242bc9aa2152109c950a449ed306399",
+        "pxt-calliope-neo-6m": "github:CalliTGS3/pxt-calliope-NEO-6M#a5075286145cd5d1edc3dabccc66ddde4dc20908",
+        "BME280": "github:makecode-extensions/bme280#v1.1.0",
+        "radio": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
